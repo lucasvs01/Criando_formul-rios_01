@@ -193,17 +193,37 @@ fieldset:nth-child(2) {
     width: 50%;
 }
 
-.col-3 {
-
+.fieldset-wrapper-input {
     display: flex;
+    gap: 32px;
+    width: 100%;
+    
 }
 
+.fieldset-wrapper-input > div:nth-child(1) {
 
-.col-3 > div {
+    margin-right: ;
+
+    width: 50%;
+
+    display: flex;
     
 }
 
 
+.col-3 {
+
+    display: flex;
+    gap: 10px;
+    
+
+}
 
 
+.col-3 .input-wrapper input{
+
+width: 100%;
+
+
+}
 
