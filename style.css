@@ -202,8 +202,6 @@ fieldset:nth-child(2) {
 
 .fieldset-wrapper-input > div:nth-child(1) {
 
-    margin-right: ;
-
     width: 50%;
 
     display: flex;
@@ -215,6 +213,7 @@ fieldset:nth-child(2) {
 
     display: flex;
     gap: 10px;
+    width: 290px;
     
 
 }
@@ -222,7 +221,7 @@ fieldset:nth-child(2) {
 
 .col-3 .input-wrapper input{
 
-width: 100%;
+width: 140px;
 
 
 }
