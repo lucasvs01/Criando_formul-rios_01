@@ -116,6 +116,8 @@ form fieldset legend {
     flex-direction: column;
 
     gap: 8px;
+
+    margin-top: 16px;
     
 }
 
@@ -148,12 +150,19 @@ form fieldset legend {
     text-align: center;
 
     background: #FAFAFC;
+
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #4E4958;
 }
 
 
 .col-2 {
     display: flex;
     gap: 22px;
+    margin-top: -16px;
 
     
 }
@@ -164,6 +173,35 @@ form fieldset legend {
 }
 
 
+fieldset:nth-child(2) {
+
+    margin: 19px 0 32px;
+
+}
+
+
+.col-2 {
+    display: flex;
+    gap: 22px;
+    margin-top: -16px;
+
+    
+}
+
+.col-2 > div{
+
+    width: 50%;
+}
+
+.col-3 {
+
+    display: flex;
+}
+
+
+.col-3 > div {
+    
+}
 
 
 
