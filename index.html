@@ -43,24 +43,24 @@
                         <div class="col-2">                        
                             <div class="input-wrapper">
                                 <label for="mentoring-name">Nome</label>
-                                <input type="text" name="" id="mentoring-name">                    
+                                <input required type="text" name="" id="mentoring-name">                    
                             </div>
 
                             <div class="input-wrapper">
                                 <label for="mentoring-second-name">Sobrenome</label>
-                                <input type="text" id="mentoring-second-name">
+                                <input required type="text" id="mentoring-second-name">
                             </div>
                         </div>
 
 
                         <div class="input-wrapper">
                             <label for="mentoring-email">Email <span>(digite um email válido)</span></label>
-                            <input type="email" id="mentoring-email">
+                            <input required type="email" id="mentoring-email">
                         </div>
 
                         <div class="input-wrapper">
                             <label for="mentoring-password">Senha <span>(mínimo de 6 caracteres)</span></label>
-                            <input type="password" id="mentoring-password">
+                            <input required minlength="6" type="password" id="mentoring-password">
                         </div>
                     </div>
                 </fieldset>
@@ -72,7 +72,7 @@
 
                         <div class="input-wrapper-mentor">
                             <label for="mentor-name">Nome do seu mentor <span>(só o primeiro nome)</span></label>
-                            <input type="text" name="" id="mentor-name">                    
+                            <input required type="text" name="" id="mentor-name">                    
                         </div>
                     </div>
                 </fieldset>
@@ -94,18 +94,18 @@
 
                                 <div class="input-wrapper-date">
                                     <label for="mentoring-date">Data <span>(DD/MM/AAAA)</span></label>
-                                    <input type="date" name="" id="mentoring-date">                    
+                                    <input required type="date" name="" id="mentoring-date">                    
                                 </div>
         
                                 <div class="col-3">
                                     <div class="input-wrapper-date">
                                         <label for="mentoring-begin">Das</label>
-                                        <input type="time" id="mentoring-begin">
+                                        <input required type="time" id="mentoring-begin">
                                     </div>
         
                                     <div class="input-wrapper-date">
                                         <label for="mentoring-end">Até</label>
-                                        <input type="time" id="mentoring-end">
+                                        <input required type="time" id="mentoring-end">
                                     </div>
                                 </div>
                             </div>
